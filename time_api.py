@@ -2,7 +2,6 @@ import datetime
 import logger
 import sys
 
-
 LOG_TAG = 'TIME API'
 
 def time_in_range(start, end):
