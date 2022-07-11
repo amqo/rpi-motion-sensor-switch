@@ -1,0 +1,11 @@
+[Unit]
+Description=Motion Sensor
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/alberto/motion_sensor.py
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
